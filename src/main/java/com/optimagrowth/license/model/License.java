@@ -1,12 +1,8 @@
 package com.optimagrowth.license.model;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 
-@Getter
-@Setter
-@ToString
+@Data
 public class License {
 
     private int id;
@@ -15,4 +11,5 @@ public class License {
     private String organizationId;
     private String productName;
     private String licenseType;
+
 }
